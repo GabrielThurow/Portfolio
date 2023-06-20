@@ -32,58 +32,27 @@
     margin-top: 100px;
 }
 
-#apresentacao {
-    text-align: left;
-    color: var(--cor-texto);
-    font-family: var(--font-destaque);
-    font-weight: 400;
-    font-size: 35px;
-}
-
-#meu-nome {
-    text-align: left;
-    color: var(--cor-texto);
+h1 {
+    padding: 20px;
     font-family: var(--font-destaque);
     font-weight: 700;
-    font-size: 55px;
+    font-size: 40px;
+    color: var(--cor-texto);
 }
+
+p {
+    padding: 20px;
+    font-family: var(--font-padrao);
+    text-indent: 10px;
+    text-align: left;
+    color: var(--cor-texto);
+}
+
 /* termino do texto */
 
 /* botão */
 
-.butao-centralizado {
-    text-align: center;
-}
 
-#linkedin {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    border-radius: 47px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    background-color: var(--cor-links);
-    color: #000;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    margin: 10px auto auto auto;
-    gap: 10px;
-
-    width: 200px;
-    height: 68px;
-}
-
-#linkedin:hover {
-    background-color: var(--cor-texto);
-    color: var(--cor-links);
-    transform: translateY(-7px);
-}
-  
-#linkedin:active {
-    transform: translateY(-1px);
-}
 
 /* termino do botão */
 
