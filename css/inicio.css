@@ -1,72 +1,68 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 :root {
-    --cor-texto: #fff;
-    --bg-color: #1A1A1A;
+    --cor-texto: #000;
     --cor-links: #FF9142;
 
-    --font-padrao: 'Rubik', sans-serif;
     --font-destaque: 'Syne', sans-serif;
 }
 
-.inicio {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#inicio  {
+    background-color: #FF9142;
+    height: 100vh;
+    display: block;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+}
+
+.apresentacao {
+    background-color: #FF9142;
+    height: 100vh;
 }
 
 /* texto */
 
-.texto {
-    max-width: 500px;
-    min-width: 300px;
-    margin: auto;
-    margin-top: 100px;
-}
-
-h1 {
-    padding: 20px;
+.texto-apresentacao {
+    padding: 200px 0px 5px 0px;
+    color: #fff;
     font-family: var(--font-destaque);
     font-weight: 700;
-    font-size: 40px;
-    color: var(--cor-texto);
-}
-
-p {
-    padding: 20px;
-    font-family: var(--font-padrao);
-    text-indent: 10px;
-    text-align: left;
-    color: var(--cor-texto);
+    font-size: 72px;
 }
 
 /* termino do texto */
 
 /* botão */
 
-
+button {
+    padding: 15px 100px 15px 100px;
+    /*padding: 1.3em 3em;*/
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+button:hover {
+    color: #fff;
+    transform: translateY(-7px);
+}
+  
+button:active {
+    transform: translateY(-1px);
+}
 
 /* termino do botão */
-
-/* imagem */
-
-img {
-    width: 100%;
-}
-
-.imagem {
-    margin: auto;
-}
-
-.imagem-desenho {
-    max-width: 400px;
-    min-width: 200px;
-}
